@@ -1,0 +1,17 @@
+<workflow>
+
+    <flow name="SampleFlow">
+
+        <task id="ExceptionHandler" className="com.simple.workflow.ExceptionHandler"/>
+
+
+        <task id="Step1"
+              className="com.simple.workflow.Step1"/>
+        <task id="Step2"
+              className="com.simple.workflow.Step2"/>
+        <task id="Step3"
+              className="com.simple.workflow.Step3"/>
+
+    </flow>
+
+</workflow>
